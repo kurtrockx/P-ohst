@@ -7,13 +7,13 @@ function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Logo />
         <ul className="text-shadow-sm font-comic flex gap-4">
-          <li className="font-semibold text-amber-400">
+          <li className="font-semibold text-amber-400 hover:text-amber-500">
             <NavLink to="/addPost">ADD POST</NavLink>
           </li>
-          <li className="font-semibold text-amber-400">
+          <li className="font-semibold text-amber-400 hover:text-amber-500">
             <NavLink to="/posts">POSTS</NavLink>
           </li>
-          <li className="font-semibold text-amber-400">
+          <li className="font-semibold text-amber-400 hover:text-amber-500">
             <NavLink to="/user">USER</NavLink>
           </li>
         </ul>

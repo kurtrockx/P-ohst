@@ -4,7 +4,12 @@
   --font-comic: "Comic Sans MS", "cursive", "sans-serif";
 }
 @layer utilities {
-/*   .text-shadow-sm {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  } */
+  @keyframes wiggle {
+    0% {
+      rotate: 0deg;
+    }
+    50% {
+      rotate: -20deg;
+    }
+  }
 }
