@@ -9,8 +9,8 @@ function Logo() {
           alt="homer"
           className="z-0 h-16 ease-in-out group-hover:animate-[wiggle_1s_infinite_alternate-reverse_ease-in-out]"
         />
-        <p className="font-comic z-10 text-2xl font-bold text-amber-400 group-hover:text-amber-500">
-          D'oh!
+        <p className="font-comic z-10 text-2xl font-bold text-amber-500 group-hover:text-amber-600">
+          P'ohst!
         </p>
       </div>
     </NavLink>

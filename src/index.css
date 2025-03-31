@@ -9,7 +9,20 @@
       rotate: 0deg;
     }
     50% {
-      rotate: -20deg;
+      rotate: -10deg;
     }
+  }
+  @keyframes up-down {
+    0%, 100% {
+      translate: -2px;
+      rotate: 2deg;
+    }
+    50% {
+      translate: 2px;
+      rotate: -2deg;
+    }
+  }
+  .animate-up-down {
+    animation: up-down 1s ease-in-out infinite alternate;
   }
 }
