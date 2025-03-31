@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function UserEntryPage() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <Navbar />
+      <h1>UserEntryPage</h1>
+    </div>
+  );
 }
 
-export default UserEntryPage
+export default UserEntryPage;
