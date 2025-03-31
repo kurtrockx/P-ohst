@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import NewBlog from "./pages/NewBlog";
-import BlogPage from "./pages/BlogPage";
+import NewPost from "./pages/NewPost";
+import PostPage from "./pages/PostPage";
 import UserEntryPage from "./pages/UserEntryPage";
 import MainContainer from "./layout/MainContainer";
 
@@ -11,8 +11,8 @@ export default function App() {
       <Routes>
         <Route element={<MainContainer />}>
           <Route index element={<Homepage />} />
-          <Route path="/addPost" element={<NewBlog />} />
-          <Route path="/posts" element={<BlogPage />} />
+          <Route path="/addPost" element={<NewPost />} />
+          <Route path="/posts" element={<PostPage />} />
           <Route path="/user" element={<UserEntryPage />} />
         </Route>
       </Routes>

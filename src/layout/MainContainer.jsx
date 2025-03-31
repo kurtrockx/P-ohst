@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 
 function MainContainer() {
   return (
-    <div className="h-dvh bg-amber-300">
-      <div className="font-comic mx-auto max-h-dvh">
+    <div className="min-h-dvh bg-amber-300">
+      <div className="font-comic mx-auto">
         <Navbar />
         <Outlet />
       </div>
