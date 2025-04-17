@@ -27,3 +27,8 @@
     animation: up-down 1s ease-in-out infinite alternate;
   }
 }
+
+
+html, body {
+  overflow-x: hidden;
+}

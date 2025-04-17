@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function Navbar() {
   return (
-    <nav className="bg-white px-4 py-2 shadow-lg">
+    <nav className="sticky top-0 bg-white px-4 py-2 shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Logo />
         <ul className="text-shadow-sm font-comic flex gap-4">
