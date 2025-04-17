@@ -224,7 +224,7 @@ function PostPage() {
   const [posts, setPosts] = useState(samplePosts);
   console.log(posts);
   return (
-    <div className="px-2">
+    <div className="px-2 relative">
       <div className="mx-auto grid w-full max-w-7xl grid-cols-3 gap-4 py-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
         {posts.map((p) => (
           <Post post={p} key={p.id} />
