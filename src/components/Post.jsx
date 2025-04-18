@@ -8,7 +8,7 @@ function Post({ post }) {
   }
 
   return (
-    <div className="cursor-pointer bg-white p-2 shadow-md duration-100 hover:scale-110 hover:-rotate-5 hover:shadow-xl">
+    <div className="cursor-pointer bg-white p-2 shadow-md duration-100 hover:scale-110 hover:-rotate-5 hover:shadow-[0_0_1rem_rgba(0,0,0,.25)]">
       <h1 className="truncate">{post.title}</h1>
       <h4 className="text-sm text-amber-700">{post.author}</h4>
       <img
